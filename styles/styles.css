@@ -62,7 +62,8 @@ nav li a {
 
 }
 
-.banner-description, .team-description{
+.banner-description,
+.team-description {
     color: #727272;
     font-size: 1rem;
     font-weight: 400;
@@ -88,9 +89,8 @@ nav li a {
 
 /* team section */
 main {
-    max-width: 1440px;
-    margin: 0 auto;
-    padding: 50px 200px;
+    max-width: 1080px;
+    margin: 20px auto;
 }
 
 .team-container {
@@ -105,8 +105,8 @@ main {
 }
 
 .team-contant {
-    padding-left: 3.75rem;
-    /* padding-right: 3.75rem; */
+    padding-left: 3rem;
+    padding-right: 3rem;
 }
 
 .team-title,
@@ -116,18 +116,28 @@ main {
     color: #131313;
 }
 
-.our, .feature {
-    color:  #131313;
+.our,
+.feature {
+    color: #131313;
     font-size: 45px;
     font-weight: 700;
 }
-.feature{
+
+.feature {
     color: #FF900E;
 }
-.team-description{
 
+/* fact section */
+.fact-card-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
 }
-
+.fact-card-container, .card {
+    border-radius: 8px;
+    text-align: center;
+    
+}
 
 
 /* responsive media query  mobile device*/
@@ -137,8 +147,22 @@ main {
         padding: 20px;
     }
 
-    nav {
+    main {
+        padding: 5px 10px;
+    }
+
+    nav,
+    .team-container {
         flex-direction: column;
+    }
+
+    .team-contant {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    .team-img-container {
+        grid-template-columns: 1fr;
     }
 
 }
@@ -151,7 +175,8 @@ main {
         padding: 50px;
     }
 
-    nav {
+    nav,
+    .team-container {
         flex-direction: column;
     }
 }

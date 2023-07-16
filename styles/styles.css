@@ -290,8 +290,14 @@ footer {
     .sponsor-img {
         flex-direction: column;
     }
-
-    /* .team-img-container{
-        padding: 50px;
-    } */
+    .feature-title-content{
+        margin: 10px 50px;
+    }
+    .fact-section, .sponsor-section{
+        margin: 20px 50px;
+    }
+    .feature-img img {
+        width: 100%;
+    }
+   
 }

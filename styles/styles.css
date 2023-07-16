@@ -218,6 +218,21 @@ main {
     margin-top: 50px;
 }
 
+/* footer section */
+footer {
+    border-radius: 5px;
+    background: #FFF4E7;
+    margin: 50px 220px;
+    padding: 20px;
+}
+
+.center {
+    color: #424242;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
 
 /* responsive media query  mobile device*/
 
@@ -233,7 +248,8 @@ main {
     nav,
     .team-container,
     .fact-card-container,
-    .sponsor-img {
+    .sponsor-img,
+    .feature-title-content {
         flex-direction: column;
     }
 
@@ -249,6 +265,13 @@ main {
 
     .fact-card-container {
         gap: 20px;
+    }
+
+    .feature-img img {
+        width: 100%;
+    }
+    footer{
+        margin: 5px 10px;
     }
 
 
